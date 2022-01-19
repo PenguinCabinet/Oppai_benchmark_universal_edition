@@ -6,7 +6,7 @@ ARM上でも動作します。
 
 
 # ダウンロード
-[ダウンロード](https://github.com/PenguinCabinet/Oppai_benchmark/releases/latest)
+[ダウンロード](https://github.com/PenguinCabinet/Oppai_benchmark_universal_edition/releases/latest)
 
 # 使い方
 
