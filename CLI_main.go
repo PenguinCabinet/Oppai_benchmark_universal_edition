@@ -5,6 +5,15 @@ import (
 	"time"
 )
 
+type chan_t struct {
+	t     float64
+	S     float64
+	score float64
+}
+
+var benchmark_running bool
+var chan_data chan chan_t
+
 func CLI_main() {
 	benchmark_running = true
 	chan_data = make(chan chan_t, 4096)

@@ -13,15 +13,6 @@ func main() {
 		Flags: []cli.Flag{},
 		Commands: []*cli.Command{
 			{
-				Name:    "GUI",
-				Aliases: []string{"g"},
-				Usage:   "run on gui",
-				Action: func(c *cli.Context) error {
-					GUI_main()
-					return nil
-				},
-			},
-			{
 				Name:    "CLI",
 				Aliases: []string{"c"},
 				Usage:   "run on cli",
@@ -32,7 +23,7 @@ func main() {
 			},
 		},
 		Action: func(c *cli.Context) error {
-			GUI_main()
+			CLI_main()
 			return nil
 		},
 	}
