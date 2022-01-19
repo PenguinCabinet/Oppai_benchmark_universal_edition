@@ -15,3 +15,6 @@ ARM上でも動作します。
 ```shell
 Oppai_benchmark c
 ```
+
+# その他
+性能の参考値等は[本家 おっぱい関数ベンチマーク](https://github.com/PenguinCabinet/Oppai_benchmark)に記述してあります。
