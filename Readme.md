@@ -1,24 +1,14 @@
-[REAMDME OF ENGLISH](./Readme_en.md)
-# おっぱい関数積分ベンチマーク
+# おっぱい関数積分ベンチマーク ユニバーサルエディション
 
-![Oppai](https://github.com/PenguinCabinet/Oppai_benchmark/raw/master/explanation/Oppai.gif)
+[おっぱい関数ベンチマーク](https://github.com/PenguinCabinet/Oppai_benchmark)のCLIのみのバージョンです。\
+ARM上でも動作します。
 
-これは揺れるおっぱい関数を積分して、その速度を計測するベンチマークソフトです。 
-
-[おっぱい関数は「大学対抗全日本おっぱい関数選手権大会」エントリー作品 名古屋大学代表](https://www.desmos.com/calculator/i05puaquwh?lang=ja)のものを使用させていただきました。
 
 
 # ダウンロード
 [ダウンロード](https://github.com/PenguinCabinet/Oppai_benchmark/releases/latest)
 
 # 使い方
-
-## GUI
-実行ファイルをクリックするか\
-コマンドラインで
-```shell
-Oppai_benchmark
-```
 
 ## CUI
 コマンドラインで

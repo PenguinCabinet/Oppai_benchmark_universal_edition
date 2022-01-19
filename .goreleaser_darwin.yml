@@ -5,7 +5,7 @@ before:
   hooks:
     - go mod tidy
 checksum:
-  name_template: "{{ .ProjectName }}_darwin_checksums.txt"
+  name_template: "{{ .ProjectName }}_MacOS_checksums.txt"
 
 builds:
   - main: .
@@ -24,7 +24,7 @@ builds:
       - arm
       - arm64
 archives:
-  - name_template: '{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
+  - name_template: '{{ .ProjectName }}_{{ .Os }}_MacOS{{ if .Arm }}v{{ .Arm }}{{ end }}'
     replacements:
       darwin: darwin
       linux: linux
